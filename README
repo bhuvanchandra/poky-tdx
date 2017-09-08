@@ -1,0 +1,20 @@
+Toradex Poky Setup
+===================
+
+Install the repo bootstrap binary:
+
+  mkdir ~/bin
+  PATH=~/bin:$PATH
+  curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  chmod a+x ~/bin/repo
+
+Create a directory for your yocto setup to live in and clone the meta information.
+
+  mkdir yocto
+  cd yocto
+  repo init -u http://github.com/bhuvanchandra/yocto-tdx.git -b master
+  repo sync
+
+Optionally create a development branch in all git repositories
+
+  repo start mybranch --all

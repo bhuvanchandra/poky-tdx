@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="http://github.com/bmwcarit" name="githb"/>
+  <remote alias="repo" fetch="http://github.com/Freescale" name="githf"/>
+  <remote alias="repo" fetch="http://github.com/meta-qt5" name="githq"/>
+  <remote alias="repo" fetch="http://git.toradex.com" name="tdx"/>
+  <remote alias="repo" fetch="http://github.com/watatuki" name="githt"/>
+  <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote alias="repo" fetch="http://github.com/bhuvanchandra" name="githdvb"/>
+
+  <default sync-j="4"/>
+
+  <project name="poky.git" path="layers" remote="yocto" revision="38613fdacf8e0699229811c870f3f7bf317ef32a" upstream="morty"/>
+  <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="1879485e63ce369292c89b5902ff6df13509090b" upstream="morty"/>
+  <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
+  <project name="meta-freescale.git" path="layers/meta-freescale" remote="githf" revision="fa774ad7fb797957601a8c9fee45af453fea34b7" upstream="morty"/>
+  <project name="meta-jetson-tk1.git" path="layers/meta-jetson-tk1" remote="githt" revision="e8b87fe8da7c6fcffa37ab245f50082953cc1ee1" upstream="Morty"/>
+  <project name="meta-qt4" path="layers/meta-qt4" remote="yocto" revision="2c7f8df9039be498f8a2232d1428adb7f4e5e800" upstream="morty"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"/>
+  <project name="meta-ros.git" path="layers/meta-ros" remote="githb" revision="859f5da5cb2320e67f63f826ec4b07ffd4af83a6" upstream="master"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="b128af95613557af8deaea30212e89e6316eab88" upstream="morty"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="89a17628efef01fd5af202e88d79188df08f636f" upstream="morty"/>
+  <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="40e9d4bd596a01df7fccd305befc362a08117f9f" upstream="morty"/>
+  <project name="meta-toradex-poky.git" path="layers/meta-toradex-poky" remote="githdvb" revision="d2f1dd9246ae7201b25da3d3562e28d7dbca1900" upstream="master">
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
+</manifest>

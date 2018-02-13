@@ -25,7 +25,7 @@
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="toradex" revision="eb87aec937ab520da8162c89e69d33faf9bc29a2" upstream="rocko"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="toradex" revision="53fdf58e0a31c94ef446fe7c9e20585dad763099" upstream="rocko"/>
   <project name="meta-rapyuta.git" path="layers/meta-rapyuta" remote="dvb" revision="15d9cefaa51a755649b3db1f14f4e4f19357068a" upstream="master"/>
-  <project name="meta-poky-extras.git" path="layers/meta-poky-extras" remote="dvb" revision="32c535681562ec02cb22c055faee3900c83598d4" upstream="master">
+  <project name="meta-poky-extras.git" path="layers/meta-poky-extras" remote="dvb" revision="79ebd5c23a4dfd09fae089e3ff09109bd282071c" upstream="master">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>

@@ -15,6 +15,7 @@
   <project name="poky.git" path="layers" remote="yocto" revision="21ba45aa77e4d43a93cd96d859707a4758e8b64b" upstream="rocko"/>
   <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="a65c1acb1822966c3553de9fc98d8bb6be705c4e" upstream="rocko"/>
   <project name="meta-raspberrypi.git" path="layers/meta-raspberrypi" remote="yocto" revision="510009f0c825cd7992d2d37e9ed0007f6c3be723" upstream="rocko"/>
+  <project name="meta-sunxi.git" path="layers/meta-sunxi" remote="sunxi" revision="09b67e1d65e68505278140f756a36622554d87a1" upstream="rocko"/>
   <project name="meta-cloud-services.git" path="layers/meta-cloud-services" remote="yocto" revision="62f3fed67f8cf07de5e342f57e4faf911f001c12" upstream="rocko"/>
   <project name="meta-chip.git" path="layers/meta-chip" remote="agherzan" revision="4ce5116136daec211a58b0579f88569ed21a075c" upstream="master"/>
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="freescale" revision="ce86126d4978c7c02a9c6e2e317af0627e5b9a6a" upstream="rocko"/>

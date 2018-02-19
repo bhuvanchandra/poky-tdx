@@ -26,7 +26,7 @@
   <project name="meta-ros.git" path="layers/meta-ros" remote="ros" revision="fc63fb01b853df5a80bb8b2a3c8fe8d743c1c52c" upstream="master"/>
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="toradex" revision="eb87aec937ab520da8162c89e69d33faf9bc29a2" upstream="rocko"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="toradex" revision="53fdf58e0a31c94ef446fe7c9e20585dad763099" upstream="rocko"/>
-  <project name="meta-rapyuta.git" path="layers/meta-rapyuta" remote="dvb" revision="7311f71693b6c0883d6d4b22681528273e63496e" upstream="master">
+  <project name="meta-rapyuta.git" path="layers/meta-rapyuta" remote="dvb" revision="aa3c2285556b09206530faad621d94ef6c5d3c4d" upstream="master">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
